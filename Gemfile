@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
-gem 'shotgun'
-gem 'sass'
 gem 'json'
-gem 'tux'
+gem 'fay-websocket'
+
 
 group :development do
+  gem 'shotgun'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
