@@ -1,6 +1,6 @@
-require 'rubygems'
-require 'bundler/setup'
-require 'sinatra'
+# to run with rackup
+require 'bundler'
+Bundler.require
 require './app'
 
-run Sinatra::Application
+run Webinar

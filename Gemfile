@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
-gem 'rack'
+gem 'shotgun'
 gem 'sass'
 gem 'json'
 gem 'tux'

@@ -1,7 +1,9 @@
-require 'bundler'
-Bundler.require
-require 'better_errors'
+require 'sinatra'
 
-get '/' do
-  'Hello world!'
+class Webinar < Sinatra::Base
+
+  get '/' do
+    erb :index
+  end
+
 end
